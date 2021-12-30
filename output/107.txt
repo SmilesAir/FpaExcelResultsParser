@@ -1,0 +1,9 @@
+start pools 5a58d7d1-4d00-4c2b-a9dd-db0430eb5a50 "Mixed Pairs"
+round 1
+pool A
+1 c7bc4fa4-4543-4979-a81b-1de25cac028f c2e6bd58-268f-43e3-88e0-403fe0ebc0fa 131.5
+2 bc66cc98-9212-4582-97d6-2b58776721d2 db0e2fdc-fba2-430d-802b-f74f314f1658 101.5
+3 3b680263-24ef-462e-8e98-26f39febbe77 7b9bf9cb-69f9-48fa-adfb-7eea3a331605 81
+4 bc8bec95-3c5a-4a7c-b35a-d95babc8a9fc e5d42abd-1271-44f9-b1d1-3d65129e093f 70
+end
+

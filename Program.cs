@@ -166,6 +166,7 @@ namespace FpaExcelResultsParser
 
 			//AddEvents(summeries);
 
+			WriteResultOutput();
 
 			Console.WriteLine($"Total events: {summeries.Count}  Errors: {errorCount}  Players: {rawPlayerList.Count} Markups: {outputMarkups.Count}");
 
@@ -177,6 +178,20 @@ namespace FpaExcelResultsParser
 			//	var summaryData = ParseEventSummary(sheet);
 			//	Console.WriteLine(JsonSerializer.Serialize(summaryData));
 			//}
+		}
+
+		static void WriteResultOutput()
+		{
+			int fileIndex = 0;
+			foreach (var markup in outputMarkups)
+			{
+				string path = @"C:\GitHub\FpaExcelResultsParser\output\";
+				using (StreamWriter stream = new StreamWriter(path + fileIndex + ".txt"))
+				{
+					stream.WriteLine(markup);
+				}
+				++fileIndex;
+			}
 		}
 
 		static void ParseResults(ExcelWorksheet sheet, string filename, EventSummary summaryData)

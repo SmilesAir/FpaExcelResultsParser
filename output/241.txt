@@ -1,0 +1,8 @@
+start pools 575db2cd-de29-46cd-af98-41aa7fdd00d9 Open
+round 1
+pool A
+1 8cebb3a1-73ed-4eb2-a160-f12069a5da58 0239b3f9-3fac-4a43-9308-51a11f171b16 44ec5539-dead-44af-ad74-f570e52b9d4e 63.5
+2 9d0dfdfe-7ca2-4c66-a8b6-1d52b3f10e7c f2102210-39cc-4210-b6c8-a3f21815d8b6 51
+3 ececa9fb-e4e5-4439-afe8-6b57df449c15 acfdc3cd-a8f6-4663-84c7-689979ebdd63 40
+end
+
