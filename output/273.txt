@@ -1,4 +1,4 @@
-start pools e9e46222-4fde-4671-a430-2bfb759005d3 "Women Pairs"
+start pools 2ee86376-56f7-4e6d-a629-fbf2ae11168e "Women Pairs"
 round 1
 pool A
 1 342cfb78-a9f0-4daa-8f5a-25c2dc8efccd 4f9222cb-01d1-4ae5-9022-4c8aa897b6e7 128

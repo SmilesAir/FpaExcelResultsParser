@@ -1,4 +1,4 @@
-start pools ea5d9fe1-7e5b-4f9e-a544-0c61d73812d0 "Open Co-op"
+start pools a92e3f60-700a-422a-8b6e-46d92852d374 "Open Co-op"
 round 1
 pool A
 1 0a62092c-b4f5-4a3a-8c13-03f08320c1f9 af1acbf6-1d16-4bb9-b6b8-09be0a659dd9 383715c9-1750-43ee-8c9c-3f4ffb49fc7d 167

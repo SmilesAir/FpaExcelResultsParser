@@ -164,7 +164,7 @@ namespace FpaExcelResultsParser
 				}
 			}
 
-			//AddEvents(summeries);
+			AddEvents(summeries);
 
 			WriteResultOutput();
 
@@ -645,7 +645,7 @@ namespace FpaExcelResultsParser
 				}
 				else if (startDatePieces.Length == 1 && endDatePiecies.Length == 3)
 				{
-					AssignDates(endDatePiecies[0], endDatePiecies[1], startDatePieces[0], endDatePiecies[0], endDatePiecies[1], endDatePiecies[2], filename, ref summary);
+					AssignDates(startDatePieces[0], endDatePiecies[1], endDatePiecies[2], endDatePiecies[0], endDatePiecies[1], endDatePiecies[2], filename, ref summary);
 				}
 				else
 				{
@@ -674,6 +674,19 @@ namespace FpaExcelResultsParser
 					}
 				}
 			}
+
+			//var filePieces = filename.Replace(@"C:\GitHub\FpaExcelResultsParser\results\", "").Split(" - ");
+			//string fileDate = "20" + filePieces[0].Substring(0, 2) + "-";
+			//string numStr = filePieces[0].Substring(2, 2);
+			//numStr = numStr[0] == '0' ? numStr.Substring(1, 1) : numStr;
+			//fileDate += numStr + "-";
+			//numStr = filePieces[0].Substring(4, 2);
+			//numStr = numStr[0] == '0' ? numStr.Substring(1, 1) : numStr;
+			//fileDate += numStr;
+			//if (summary.startDate != fileDate)
+			//{
+			//	Console.WriteLine(summary.startDate + "  " + fileDate + "  " + filename);
+			//}
 
 			return summary;
 		}
@@ -731,7 +744,7 @@ namespace FpaExcelResultsParser
 
 			TimeSpan shortestTimeSpan = new TimeSpan(100, 0, 0, 0);
 			TimeSpan timeLength;
-			DateTime startDateTime;
+			DateTime startDateTime = new DateTime();
 			DateTime endDateTime;
 			int errorCount = 0;
 
@@ -806,6 +819,10 @@ namespace FpaExcelResultsParser
 			if (shortestTimeSpan > new TimeSpan(7, 0, 0, 0))
 			{
 				Console.WriteLine($"Error: Event too long. '{shortestTimeSpan.Days}' in '{filename}'");
+			}
+			else if (startDateTime > DateTime.Now)
+			{
+				Console.WriteLine($"Error: Event starting in the future. '{startDateTime.ToString()}' in '{filename}'");
 			}
 			else if (errorCount > 3)
 			{

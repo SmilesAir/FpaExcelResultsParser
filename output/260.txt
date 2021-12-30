@@ -1,4 +1,4 @@
-start pools 544ff231-b3cc-40ce-9f75-d245d590783d "Mixed Pairs"
+start pools d547536a-ad0d-4583-a266-c4c06aa36b36 "Mixed Pairs"
 round 1
 pool A
 1 a9f97ecc-9713-4e66-984c-4c27570e63fa 361f438f-715a-400e-bfdd-7ef1c7b0888f 167.5

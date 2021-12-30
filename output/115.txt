@@ -1,4 +1,4 @@
-start pools 32f6103a-4fd4-44aa-9bcf-9c1b17cff29e Open
+start pools ffa2b078-dad9-4624-8744-372e353f7ebe Open
 round 1
 pool A
 1 6ffe0868-96af-410e-a68b-dace19cb9ee2 7567fe3a-0e34-492a-8130-550d728addfc 64

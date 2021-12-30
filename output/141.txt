@@ -1,4 +1,4 @@
-start pools beb04281-b31a-4e58-a57b-f137ed60ebc9 "Random Open"
+start pools 83d86bc4-32c0-41f5-a3f5-145229f1a555 "Random Open"
 round 1
 pool A
 1 105a34da-362f-4d25-98c9-52019fed0cd2 c2e6bd58-268f-43e3-88e0-403fe0ebc0fa 169.5

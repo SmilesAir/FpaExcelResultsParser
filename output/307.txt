@@ -1,4 +1,4 @@
-start pools 5b920e3b-b433-4d66-8ce6-6fe4c31069e6 "Open Pairs"
+start pools a241975d-1974-4daa-ba38-7a5a026797b2 "Open Pairs"
 round 1
 pool A
 1 8cebb3a1-73ed-4eb2-a160-f12069a5da58 9bcc365e-b33d-4d10-a9d0-6f31280468e6 136.5
