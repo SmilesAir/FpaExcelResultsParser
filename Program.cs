@@ -231,7 +231,7 @@ namespace FpaExcelResultsParser
 				{
 					//Console.WriteLine(filename);
 
-					return;
+					continue;
 				}
 				string round = ParseRound(sheet, startRow - 1);
 				if (round == null || round.Length == 0)
